@@ -16,24 +16,44 @@ This notebook contains some simple snippets to get a basic understanding how
 to interact with Spark DataFrames in Python.
 
 
-## 02 - PySpark Word Count (exercise + solution)
+## 02 - From Pandas to Spark (skeleton + solution)
 
-These notebooks contain the classic word count, implemented with DataFrames.
+These notebooks provides some examples on the differences between Pandas and Spark on an API level.
 
 
-## 03 - Linear Regression (skeleton + solution)
+## 03 - Weather Analysis Exercise (exercise + solution)
+
+A small exercise using some more data for a simple weather analysis.
+
+
+## 04 - Pandas UDF (skeleton + solution)
+
+An introduction to the various types of Pandas Vectorized UDFs
+
+
+## 05 - Grouped Regression (exercise + solution)
+
+An non-trivial example for using Pandas UDFs
+
+
+## 06 - House Prices (skeleton + solution)
 
 These notebooks contain a simple linear regression exercise as an introduction
 to machine learning with Spark.
 
 
-## 04 - Text Classification (exercise + solution)
+## 07 - House Prices (exercise + solution)
+
+These notebooks builds on the last one, but creates more structure by using Spark ML pipeliens.
+
+
+## 08 - Text Classification (exercise + solution)
 
 After being exposed to a simple linear regression, these notebooks contain an
 exercise to perform a simple statistical text classification.
 
 
-## 05 - Hyper Parameter Tuning (exercise + solution)
+## 09 - Hyper Parameter Tuning (exercise + solution)
 
 As with many complex algorithms and ML pipelines, the text classification has
 many hyper parameters. These notebooks show how to perform hyper parameter
