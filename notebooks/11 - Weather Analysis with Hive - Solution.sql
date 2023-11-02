@@ -135,7 +135,8 @@ CREATE EXTERNAL TABLE training.stations(
     longitude FLOAT,
     elevation FLOAT,
     date_begin STRING,
-    date_end STRING) 
+    date_end STRING
+) 
 ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
 WITH SERDEPROPERTIES (
    "separatorChar" = ",",
